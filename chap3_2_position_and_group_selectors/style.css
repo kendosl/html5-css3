@@ -1,0 +1,61 @@
+/*Group Selectors*/
+p, ol, li {
+    border: 1px solid black;
+    padding-left: 10px;
+    font-family: monospace;
+}
+
+ol {
+    margin-left: 0px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+/*Position Selectors*/
+div *.my-class {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#my-id p {
+    background-color: gold;
+}
+
+#my-id > * {
+    border: 3px solid black;
+}
+
+:root {
+    background: wheat;
+}
+
+li:nth-child(2n+1)
+li:nth-last-child(-n+2)
+li:nth-of-type(2n+1) {
+    float: right;
+}
+li:nth-last-of-type(2n+1) {
+    float: right;
+}
+li:first-child {
+    font-weight: bold;
+    color: red;
+}
+li:last-child {
+    font-weight: bold;
+    color: red;
+}
+ul li:first-of-type {
+    color: red;
+}
+tr > td:last-of-type
+li:only-child
+div:only-of-type
+p:empty {
+    display: hidden;
+}
+
+li + li {
+    font-style: italic;
+    color: blue;
+}
