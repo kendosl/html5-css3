@@ -1,0 +1,15 @@
+p {
+    border: 2px solid black;
+}
+
+*.my-class1 {
+    padding: 10px;
+}
+
+*.my-class2 {
+    letter-spacing: 0.1em;
+}
+
+#my-id {
+    background-color: blueviolet;
+}
